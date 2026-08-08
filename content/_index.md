@@ -27,7 +27,3 @@ My research lies at the intersection of quantitative finance, numerical analysis
 * **Isogeometric analysis.** B-splines, NURBS, and higher-order spline technologies for solving pricing PDEs with enhanced smoothness and accuracy, addressing challenges such as non-smooth payoffs and stability of sensitivities (Greeks). Extensions to stochastic settings include spline-based approximation of characteristic functions and recovery of risk-neutral probability densities from market data within martingale pricing frameworks.
 * **Parallel-in-time methods and high-performance computing.** Development of multilevel Krylov subspace methods, multigrid techniques, and parareal algorithms for efficient solution of large-scale and nonlinear financial problems, including American options formulated as linear complementarity problems.
 * **Stochastic optimization for graph network problems.** Development of metaheuristic algorithms and application of deep reinforcement learning to Markov decision problems.
-
-## Service
-
-Member of the [Society for Industrial and Applied Mathematics](https://www.siam.org/) (SIAM).
