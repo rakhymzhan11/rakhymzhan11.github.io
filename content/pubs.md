@@ -29,7 +29,6 @@ Citation counts and preprints are on [my Google Scholar page](https://scholar.go
 * J. Detemple, R. Kazbek, Y. Kitapbayev, "Valuation of corporate securities with environmental investment and sustainability-linked bonds".
 * C. Ewald, K. Kamm, R. Kazbek, "The quota game: continuous trading and efficient reallocation of harvesting quota".
 * C. Ewald, K. Kamm, R. Kazbek, "A stochastic differential game of fishery harvesting by heterogeneous risk-averse players under correlated biomass–price uncertainty".
-* K. Kamm, R. Kazbek, "Optimal decision-making in aquaculture with storage: a joint stochastic optimal control and stopping approach".
 * S.-P. Zhu, R. Kazbek, "Entropy-regularised policy mirror descent for pricing European and American passport options".
 * R. Kazbek, Y. Erlangga, N. Aitu, "On isogeometric collocation for stochastic mixed control–stopping problems".
 * D. Wei, R. Kazbek, A. Pak, Y. Erlangga, "A finite element approach to the valuation of risk-adjusted American options".
