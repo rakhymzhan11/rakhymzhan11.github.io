@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  {# The landing page is titled with the name alone so it matches searches for it. #}
+  <title>{% block title %}{% if current_path == "/" %}{{ config.title }}{% elif page %}{{ page.title }} &mdash; {{ config.title }}{% elif section %}{{ section.title }} &mdash; {{ config.title }}{% else %}{{ config.title }}{% endif %}{% endblock title %}</title>
+  <meta name="description" content="{{ config.description }}">
+  <meta name="author" content="{{ config.title }}">
+  <link href="/assets/main.css" rel="stylesheet">
+  <link crossorigin href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <link crossorigin href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <link crossorigin href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css" integrity="sha384-uo/9/s/Ns8DTg4kjkjex8GezUcgMlKD99gTqxvMkIsaG4lSUbeJ0dVELljipv94t" rel="stylesheet">
+  <link crossorigin href="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.css" integrity="sha384-Pu5+C18nP5dwykLJOhd2U4Xen7rjScHN/qusop27hdd2drI+lL5KvX7YntvT8yew" rel="stylesheet">
+  <script src="/assets/main.js"></script>
+  <script crossorigin defer integrity="sha384-2B8pfmZZ6JlVoScJm/5hQfNS2TI/6hPqDZInzzPc8oHpN5SgeNOf4LzREO6p5YtZ" src="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.js"></script>
+  <script crossorigin defer integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" src="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/contrib/auto-render.min.js"></script>
+  {% block head_extra %}{% endblock head_extra %}
+</head>
+
+<body>
+  <h1><a href="{{ get_url(path='/') }}">{{ config.title }}</a></h1>
+  <nav>
+    <ul>
+      {% for item in config.extra.menu %}<li><a href="{{ item.url | safe }}">{{ item.name }}</a></li>{% endfor %}
+    </ul>
+  </nav>
+  <div id="content">{% block content %}{% endblock content %}</div>
+  <footer>Powered by <a href="https://getzola.org/">Zola</a></footer>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+#!/bin/bash
+# Put a headshot in place as static/assets/images/photo.jpg, converting and
+# renaming whatever you give it.
+#
+#   ./add-photo ~/Desktop/headshot.png   from a file, any format
+#   ./add-photo                          from the clipboard
+set -euo pipefail
+
+here="$(cd "$(dirname "$0")" && pwd)"
+dest="$here/static/assets/images/photo.jpg"
+mkdir -p "$(dirname "$dest")"
+
+tmp="$(mktemp -t headshot)"
+trap 'rm -f "$tmp"' EXIT
+
+if [ $# -ge 1 ]; then
+    src="$1"
+    if [ ! -f "$src" ]; then
+        echo "No such file: $src" >&2
+        exit 1
+    fi
+else
+    echo "Reading an image from the clipboard..."
+    if ! osascript \
+        -e "set f to open for access POSIX file \"$tmp\" with write permission" \
+        -e "write (the clipboard as «class PNGf») to f" \
+        -e "close access f" >/dev/null 2>&1; then
+        echo "The clipboard does not contain an image." >&2
+        echo "Copy the photo and run ./add-photo again, or pass a file:" >&2
+        echo "  ./add-photo ~/Desktop/headshot.png" >&2
+        exit 1
+    fi
+    src="$tmp"
+fi
+
+sips -s format jpeg -s formatOptions 90 "$src" --out "$dest" >/dev/null
+read -r w h < <(sips -g pixelWidth -g pixelHeight "$dest" | awk '/pixel/ {printf "%s ", $2} END {print ""}')
+echo "Saved ${w}x${h} -> static/assets/images/photo.jpg"
+echo
+echo "Preview it with ./serve, then commit:"
+echo "  git add static/assets/images/photo.jpg && git commit -m 'Add headshot'"

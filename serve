@@ -1,0 +1,4 @@
+#!/bin/bash
+# Local preview at http://127.0.0.1:1111 with live reload.
+set -euo pipefail
+exec zola serve

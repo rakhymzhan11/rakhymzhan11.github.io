@@ -1,0 +1,6 @@
+# Zola build output
+/public
+/static/processed_images
+
+# macOS
+.DS_Store

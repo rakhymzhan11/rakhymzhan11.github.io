@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{# Ties this site to the existing Scholar/LinkedIn/GitHub profiles so search
+   engines treat them as one person. Email is deliberately left out. #}
+{% block head_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rakhymzhan Kazbek",
+  "url": "https://rakhymzhan11.github.io",
+  "jobTitle": "Post-doctoral researcher",
+  "affiliation": { "@type": "Organization", "name": "Umeå University" },
+  "alumniOf": { "@type": "Organization", "name": "Nazarbayev University" },
+  "knowsAbout": ["Quantitative finance", "Financial engineering", "Numerical analysis", "Scientific computing", "Operations research"],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=t0NgoNMAAAAJ",
+    "https://www.linkedin.com/in/rakhymzhan-kazbek-488b211a3/",
+    "https://github.com/rakhymzhan11",
+    "https://www.umu.se/en/staff/rakhymzhan-kazbek/"
+  ]
+}
+</script>
+{% endblock head_extra %}
+
+{% block content %}
+<h1>{{ section.title }}</h1>
+{{ section.content | safe }}
+{% endblock content %}

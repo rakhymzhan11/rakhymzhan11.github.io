@@ -1,0 +1,283 @@
+:root {
+    --bg: #fff;
+    --code-bg: #eff1f5;
+    --fg: #1a1a1a;
+    --hover: #1a4a7a;
+    --link: #2b6cb0;
+    --maxw: 42rem;
+    --muted: #666;
+    --rule: #ddd;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "EB Garamond", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 1.5rem 1rem 1rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    line-height: 1.25;
+    margin: 2rem 0 0.75rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    border-bottom: 1px solid var(--rule);
+    font-size: 1.4rem;
+    padding-bottom: 0.25rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+p,
+ul,
+ol,
+table,
+form {
+    margin: 1rem 0;
+}
+
+#content .katex {
+    font-size: 1.1rem;
+}
+
+time:not(table time) {
+    color: var(--muted);
+}
+
+/* Links */
+
+#content a,
+footer a {
+    color: var(--link);
+    background-image: linear-gradient(var(--link), var(--link));
+    background-size: 0 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    transition: background-size 0.25s ease, color 0.25s ease;
+}
+
+#content a:hover,
+footer a:hover {
+    color: var(--hover);
+    background-size: 100% 2px;
+}
+
+/* Layout */
+
+body>h1 {
+    margin-top: 0;
+}
+
+body>h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body>h1,
+nav,
+#content,
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--maxw);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    margin: 1rem 0 2rem;
+    padding: 0;
+}
+
+/* Content */
+
+#content img {
+    height: auto;
+    max-width: 100%;
+}
+
+/* Two ids so this beats `#content img { height: auto }` above.
+   The source is a wide 1280x720 frame; object-position pulls the square crop
+   right, onto the subject, keeping head and shoulders rather than just a face. */
+#content img#avatar {
+    border-radius: 50%;
+    box-shadow: 0px 0px 0.25em rgba(0, 0, 0, 0.25);
+    float: left;
+    height: 210px;
+    margin: 0 1.5rem 1rem 0;
+    object-fit: cover;
+    object-position: 68% center;
+    width: 210px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 0.4rem 0.2rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+thead,
+tr:not(:last-child) {
+    border-bottom: 1px solid var(--rule);
+}
+
+/* Bullets */
+
+#content ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+#content ul li {
+    line-height: 1.6;
+    margin: 0.5em 0;
+    padding-left: 1.5em;
+    position: relative;
+    transition: color 0.2s;
+}
+
+#content ul li::before {
+    color: var(--muted);
+    content: "▹";
+    font-size: 1.2em;
+    left: 0;
+    line-height: 1.2;
+    position: absolute;
+}
+
+#content ol {
+    padding-left: 1.6em;
+}
+
+#content ol li {
+    margin: 0.5em 0;
+    padding-left: 0.2em;
+}
+
+#content ol li::marker {
+    color: var(--muted);
+}
+
+/* Entries (experience, education, teaching) */
+
+.entry {
+    margin: 1.25rem 0;
+}
+
+.entry .where {
+    display: block;
+    color: var(--muted);
+}
+
+.date {
+    color: var(--muted);
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.note {
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+/* Footer */
+
+footer {
+    color: var(--muted);
+    font-size: 0.75rem;
+    padding-top: 1rem;
+    text-align: right;
+}
+
+/* Nav */
+
+nav a {
+    color: var(--muted);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--fg);
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+/* Code */
+
+#content code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 0.8rem;
+    padding: 0.1em 0.3em;
+}
+
+pre code {
+    display: block;
+    overflow-x: auto;
+    padding: 1rem;
+}
+
+/* Mobile tweaks */
+
+@media (max-width: 600px) {
+    #content img#avatar {
+        display: block;
+        float: none;
+        margin: 0 auto 1rem;
+    }
+}
+
+/* Print tweaks */
+
+@media print {
+
+    h1 {
+        margin-top: 0;
+    }
+
+    #content {
+        max-width: none;
+    }
+
+    body>h1,
+    footer,
+    nav {
+        display: none;
+    }
+
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.85rem;
+    }
+}
