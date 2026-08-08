@@ -30,6 +30,4 @@ My research lies at the intersection of quantitative finance, numerical analysis
 
 ## Service
 
-Reviewer for *Mathematics and Computers in Simulation* (Elsevier), *Applied Numerical Mathematics* (Elsevier), and *Computational Economics* (Springer Nature).
-
 Member of the [Society for Industrial and Applied Mathematics](https://www.siam.org/) (SIAM).
