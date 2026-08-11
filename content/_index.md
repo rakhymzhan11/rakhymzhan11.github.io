@@ -5,13 +5,13 @@ title = "About"
 
 <img alt="Rakhymzhan Kazbek" id="avatar" src="/assets/images/photo.jpg" width="210" height="210" onerror="this.style.display='none'">
 
-I am a post-doctoral researcher at [Umeå University](https://www.umu.se/en/) in Umeå, Sweden, where I apply stochastic differential game theory to financial economics in renewable and non-renewable resource management.
+I am a post-doctoral researcher at [Umeå University](https://www.umu.se/en/) in Umeå, Sweden. My research currently applies stochastic differential game theory to financial economics in renewable and non-renewable resource management.
 
 Previously I was a post-doctoral researcher at [Zayed University](https://www.zu.ac.ae/) in Abu Dhabi, UAE, working on parallel-in-time methods for large-scale problems in computational finance and financial security pricing, and an Assistant Professor in the Department of Computation and Data Science at [Astana IT University](https://astanait.edu.kz/).
 
-I hold a PhD in Applied Mathematics from [Nazarbayev University](https://nu.edu.kz/), completed under the supervision of Dr. Yogi Erlangga, Dr. Dongming Wei, and Dr. Yerlan Amanbek. My thesis was titled *Valuation of Some Nonlinear Financial Contracts by Finite Element Method*.
+I hold a PhD in Applied Mathematics, completed at [Nazarbayev University](https://nu.edu.kz/).
 
-My interests are quantitative finance, financial engineering, numerical methods, scientific computing (HPC), and operations research.
+My research interests are focused on, but not limited to, quantitative finance, numerical analysis, scientific computing (HPC), operations research (combinatorial optimization for routing and graph network problems), stochastic optimal control in zero-sum and non-zero-sum settings (game theory), financial economics, and optimal stopping problems.
 
 You can reach me at `rakhymzhan.kazbek@umu.se` or `rakhymzhankazbek@gmail.com`. I am also on [Google Scholar](https://scholar.google.com/citations?user=t0NgoNMAAAAJ) and [LinkedIn](https://www.linkedin.com/in/rakhymzhan-kazbek-488b211a3/).
 
@@ -19,11 +19,11 @@ A CV is available on request.
 
 ## Research
 
-My research lies at the intersection of quantitative finance, numerical analysis, and scientific computing, with a focus on developing robust and high-performance methods for pricing and hedging complex financial derivatives. I am particularly interested in nonlinear problems arising in American-style contracts, optimal control, and stochastic models with market frictions, with direct relevance to applications in hedge funds and quantitative trading.
+I develop robust, high-performance numerical methods for pricing and hedging complex derivatives, with an emphasis on nonlinear problems: American-style contracts, optimal control, and models with market frictions.
 
-* **Stochastic optimal control in finance and economics.** Analysis and numerical treatment of optimal stopping and control problems arising in portfolio optimization, resource extraction, and strategic interactions and competitions (e.g. duopoly models), leading to coupled HJB and quasi-variational inequalities. Incorporates game-theoretic frameworks and emphasizes economic and financial modeling under uncertainty, including stochastic dynamics, market frictions, and decision-making in incomplete and competitive markets.
-* **Partial differential equations in finance.** Advanced finite difference methods (central, upwind, and non-uniform grids) and finite element methods (P1/P2 FEM) for linear and nonlinear pricing problems, including Hamilton–Jacobi–Bellman equations and variational inequalities. Numerical solution of Volterra integral equations of the first and second kind, with applications to time-dependent models and semi-analytical pricing frameworks.
-* **Stochastic methods and Monte Carlo.** Development and application of simulation-based methods for pricing vanilla and exotic (path-dependent) derivatives, incorporating variance reduction techniques and robust sensitivity (Greeks) estimation. Extends to cross-asset derivatives beyond equity markets, including commodities, futures, interest rates, and foreign exchange, enabling a unified framework for multi-asset financial modeling.
-* **Isogeometric analysis.** B-splines, NURBS, and higher-order spline technologies for solving pricing PDEs with enhanced smoothness and accuracy, addressing challenges such as non-smooth payoffs and stability of sensitivities (Greeks). Extensions to stochastic settings include spline-based approximation of characteristic functions and recovery of risk-neutral probability densities from market data within martingale pricing frameworks.
-* **Parallel-in-time methods and high-performance computing.** Development of multilevel Krylov subspace methods, multigrid techniques, and parareal algorithms for efficient solution of large-scale and nonlinear financial problems, including American options formulated as linear complementarity problems.
-* **Stochastic optimization for graph network problems.** Development of metaheuristic algorithms and application of deep reinforcement learning to Markov decision problems.
+* **Stochastic optimal control and games.** Optimal stopping and control in portfolio optimization, resource extraction, and strategic competition, leading to coupled HJB equations and quasi-variational inequalities.
+* **PDEs in finance.** Finite difference and finite element (P1/P2) methods for linear and nonlinear pricing problems, including HJB equations, variational inequalities, and Volterra integral equations.
+* **Stochastic methods and Monte Carlo.** Simulation-based pricing of vanilla and path-dependent derivatives across equities, commodities, rates, and FX, with variance reduction and robust Greeks.
+* **Isogeometric analysis.** B-splines and NURBS for pricing PDEs, targeting non-smooth payoffs and stable sensitivities.
+* **Parallel-in-time methods and HPC.** Multilevel Krylov, multigrid, and parareal algorithms for large-scale nonlinear problems, including American options as linear complementarity problems.
+* **Combinatorial optimization.** Metaheuristics and deep reinforcement learning for constrained routing and graph network problems.
