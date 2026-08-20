@@ -2,8 +2,6 @@
 title = "Talks"
 +++
 
-The presenting author is shown in **bold**.
-
 ## Conference and invited talks
 
 * R. Kazbek, **Y. Erlangga**, Y. Amanbek, D. Wei, "Isogeometric analysis for convertible bond pricing task". The Thirteenth International Conference on Isogeometric Analysis (IGA 2025), September 14–17, 2025, Eindhoven, The Netherlands.
