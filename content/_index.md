@@ -7,7 +7,7 @@ title = "About"
 
 I am a post-doctoral researcher at [Umeå University](https://www.umu.se/en/) in Umeå, Sweden. My research currently applies stochastic differential game theory to financial economics in renewable and non-renewable resource management.
 
-Previously I was a post-doctoral researcher at [Zayed University](https://www.zu.ac.ae/) in Abu Dhabi, UAE, working on parallel-in-time methods for large-scale problems in computational finance and financial security pricing, and an Assistant Professor in the Department of Computation and Data Science at [Astana IT University](https://astanait.edu.kz/).
+Previously I was a post-doctoral researcher at [Zayed University](https://www.zu.ac.ae/) in Abu Dhabi, UAE, working on parallel-in-time methods for large-scale problems in computational finance and derivative pricing, and an Assistant Professor in the Department of Computation and Data Science at [Astana IT University](https://astanait.edu.kz/).
 
 I hold a PhD in Applied Mathematics, completed at [Nazarbayev University](https://nu.edu.kz/).
 
