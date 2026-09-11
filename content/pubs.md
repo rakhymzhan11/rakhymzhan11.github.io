@@ -7,7 +7,7 @@ Tip: as papers get DOIs / arXiv numbers, turn the titles into links, e.g.
 * R. Kazbek, ["Some title"](https://doi.org/10.xxxx/yyyy), In *Journal*, 2026. [\[arXiv\]](...) [\[doi\]](...)
 -->
 
-Citation counts and preprints are on [my Google Scholar page](https://scholar.google.com/citations?user=t0NgoNMAAAAJ).
+[Scholar page](https://scholar.google.com/citations?user=t0NgoNMAAAAJ)
 
 ## Peer-reviewed articles
 
