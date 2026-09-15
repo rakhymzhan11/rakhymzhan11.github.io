@@ -15,4 +15,5 @@ menu = [
   { name = "Publications", url = "/pubs/" },
   { name = "Talks", url = "/talks/" },
   { name = "Teaching", url = "/teaching/" },
+  { name = "Code", url = "/code/" },
 ]

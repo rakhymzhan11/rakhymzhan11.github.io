@@ -13,7 +13,7 @@ I hold a PhD in Applied Mathematics, completed at [Nazarbayev University](https:
 
 My research interests are focused on, but not limited to, quantitative finance, numerical analysis, scientific computing (HPC), operations research (combinatorial optimization for routing and graph network problems), stochastic optimal control in zero-sum and non-zero-sum settings (game theory), financial economics, and optimal stopping problems.
 
-You can reach me at `rakhymzhan.kazbek@umu.se` or `rakhymzhankazbek@gmail.com`. I am also on [Google Scholar](https://scholar.google.com/citations?user=t0NgoNMAAAAJ) and [LinkedIn](https://www.linkedin.com/in/rakhymzhan-kazbek-488b211a3/).
+You can reach me at `rakhymzhan.kazbek@umu.se` or `rakhymzhankazbek@gmail.com`. I am also on [Google Scholar](https://scholar.google.com/citations?user=t0NgoNMAAAAJ), [LinkedIn](https://www.linkedin.com/in/rakhymzhan-kazbek-488b211a3/), and [GitHub](https://github.com/rakhymzhan11).
 
 A CV is available on request.
 
