@@ -30,8 +30,4 @@ I develop robust, high-performance numerical methods for pricing and hedging com
 
 ## Code
 
-Some of my solvers can be found at [github.com/rakhymzhan11](https://github.com/rakhymzhan11).
-
-* [DSINC-AMERICAN-HESTON](https://github.com/rakhymzhan11/DSINC-AMERICAN-HESTON) (Python). A spectral damped-sinc integral-equation pricer and an MCS-ADI finite difference benchmark with policy iteration for American options under Heston.
-* [DF-ADI](https://github.com/rakhymzhan11/DF-ADI) (MATLAB). Diagonal Frog ADI schemes for the Fokker--Planck equation.
-* [duopoly-resource-fd](https://github.com/rakhymzhan11/duopoly-resource-fd) (MATLAB). Monotone finite difference solvers with Howard policy iteration for a two-firm stochastic resource game with risk-averse players and stochastic prices.
+My GitHub repositories are at [github.com/rakhymzhan11](https://github.com/rakhymzhan11).
