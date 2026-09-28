@@ -11,7 +11,7 @@ title = "Talks"
 * R. Kazbek, **Y. Erlangga**, Y. Amanbek, D. Wei, "Isogeometric analysis (IGA) for convertible bonds under the AFV framework". Abu Dhabi Research in Options Conference, December 5–9, 2023, Abu Dhabi, UAE.
 * **R. Kazbek**, Y. Erlangga, Y. Amanbek, D. Wei, "Pricing the convertible bonds under the Tsiveriotis and Fernandes framework". SIAM Conference on Financial Mathematics and Engineering (FM23), June 6–9, 2023, Philadelphia, USA.
 
-## Visiting positions
+## Research visits
 
 | Institution | Period |
 |---|---|
