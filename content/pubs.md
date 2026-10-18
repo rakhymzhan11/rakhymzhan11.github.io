@@ -20,4 +20,3 @@ Tip: as papers get DOIs / arXiv numbers, turn the titles into links, e.g.
 
 * R. Kazbek, ["Valuation of some nonlinear financial contracts by finite element method"](https://nur.nu.edu.kz/items/24142b16-628f-4892-9704-b374a1207634), PhD thesis, Nazarbayev University, 2024. Advisors: Y. Erlangga, D. Wei, Y. Amanbek.
 * R. Kazbek, "Pricing the convertible bonds", MS thesis, Nazarbayev University, 2020. Advisor: D. Wei.
-* R. Kazbek, "Heat polynomials approach for two-phase Stefan problem with moving boundaries", BS thesis, Suleyman Demirel University, 2018.
