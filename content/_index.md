@@ -5,7 +5,7 @@ title = "About"
 
 <img alt="Rakhymzhan Kazbek" id="avatar" src="/assets/images/photo.jpg" width="210" height="210" onerror="this.style.display='none'">
 
-I am a post-doctoral researcher at [Umeå University](https://www.umu.se/en/) in Umeå, Sweden. My research currently applies stochastic differential game theory to financial economics in renewable and non-renewable resource management.
+I am a post-doctoral researcher at [Umeå University](https://www.umu.se/en/) in Umeå, Sweden. My research currently applies stochastic differential game theory to the economics of renewable and non-renewable resources, where strategic extraction interacts with uncertain commodity prices.
 
 Previously I was a post-doctoral researcher at [Zayed University](https://www.zu.ac.ae/) in Abu Dhabi, UAE, working on parallel-in-time methods for large-scale problems in computational finance and derivative pricing, and an Assistant Professor in the Department of Computation and Data Science at [Astana IT University](https://astanait.edu.kz/).
 
