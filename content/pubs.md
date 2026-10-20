@@ -15,6 +15,7 @@ Tip: as papers get DOIs / arXiv numbers, turn the titles into links, e.g.
 * R. Kazbek, Y. Erlangga, Y. Amanbek, D. Wei, "Valuation of the convertible bonds under penalty TF model using finite element method", In *Computational Economics*, Springer Nature.
 * R. Kazbek, A. Abdukarimova, "Finite element method for HJB in option pricing with stock borrowing fees", In *Computational Economics*, Springer Nature.
 * R. Kazbek, M. Sergaziyev, D. Kenzhe, A. Raissov, D. Yedilkhan, "A comparative analysis of crossovers in genetic algorithms for route optimization: case studies from Astana and Shymkent, Kazakhstan", In *Scientific Reports*, Springer Nature. Accepted.
+* R. Kazbek, A. Abdukarimova, A. Abdilazim, "On the pricing and optimal exercise boundary of American options under the HJB framework", In *New Mathematics and Natural Computation*, World Scientific. Accepted.
 
 ## Theses
 
